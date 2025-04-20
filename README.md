@@ -15,12 +15,12 @@ Microservice for calculating vacation payments based on:
 Calculate vacation pay amount.
 
 #### Parameters
-| Parameter | Type   | Required | Description                     | Example       |
-|-----------|--------|----------|---------------------------------|---------------|
-| salary    | double | Yes      | Monthly salary                  | 85000         |
-| days      | integer| No*      | Vacation duration in days       | 14            |
-| start     | string | No*      | Start date (DD.MM.YYYY)         | 01.01.2025    |
-| end       | string | No*      | End date (DD.MM.YYYY)           | 14.01.2025    |
+| Parameter      | Type   | Required | Description                     | Example       |
+|----------------|--------|----------|---------------------------------|---------------|
+| salary         | double | Yes      | Monthly salary                  | 85000         |
+| days           | integer| No*      | Vacation duration in days       | 14            |
+| start          | string | No*      | Start date (DD.MM.YYYY)         | 01.01.2025    |
+| end (excluded) | string | No*      | End date (DD.MM.YYYY)           | 14.01.2025    |
 
 > **\* Note about optional parameters:**  
 > You must provide EITHER:

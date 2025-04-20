@@ -12,6 +12,6 @@ import java.util.Map;
 public class ControllerExceptionHandler extends ResponseEntityExceptionHandler {
     @ExceptionHandler(ValidationException.class)
     public ResponseEntity<?> handleValidation() {
-        return ResponseEntity.badRequest().body(Map.of("error", "Invalid paramethers"));
+        return ResponseEntity.badRequest().body(Map.of("error", "Invalid parameters"));
     }
 }
